@@ -1,0 +1,176 @@
+{{#contentFor "pageScripts"}}
+   <!--Bootstrap Validator [ OPTIONAL ]-->
+        <link href="plugins/bootstrap-validator/bootstrapValidator.min.css" rel="stylesheet">
+        <!--Demo [ DEMONSTRATION ]-->
+        <link href="css/demo/jquery-steps.min.css" rel="stylesheet">
+        <!--Demo [ DEMONSTRATION ]-->
+        <link href="css/demo/jasmine.css" rel="stylesheet">
+        <!--SCRIPT-->
+        <!--=================================================-->
+        <!--Page Load Progress Bar [ OPTIONAL ]-->
+        <link href="plugins/pace/pace.min.css" rel="stylesheet">
+        <script src="plugins/pace/pace.min.js"></script>
+{{/contentFor}}
+
+
+  <div class="boxed">
+                <!--CONTENT CONTAINER-->
+                <!--===================================================-->
+                <div id="content-container">
+                    <!--Page Title-->
+                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                    <div class="pageheader hidden-xs">
+                        <h3><i class="fa fa-home"></i> Modal Page </h3>
+                        <div class="breadcrumb-wrapper">
+                            <span class="label">You are here:</span>
+                            <ol class="breadcrumb">
+                                <li> <a href="#"> Home </a> </li>
+                                <li class="active"> Modal Page </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                    <!--End page title-->
+                    <!--Page content-->
+                    <!--===================================================-->
+                    <div id="page-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="demo-panel-ref" class="panel">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Bootstrap Modals (default)</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <!--Launch demo default modal-->
+                                        <button data-target="#demo-default-modal" data-toggle="modal" class="btn btn-default btn-md">Launch demo modal</button>
+                                        <button data-target="#demo-lg-modal" data-toggle="modal" class="btn btn-default">Large modal</button>
+                                        <button data-target="#demo-sm-modal" data-toggle="modal" class="btn btn-default">Small modal</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="demo-panel-ref" class="panel">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Custom Modals</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <!--Bootbox Custom Modals-->
+                                        <button id="demo-bootbox-custom" class="btn btn-default">Custom Dialog</button>
+                                        <button id="demo-bootbox-custom-h-content" class="btn btn-default">HTML Content</button>
+                                        <button id="demo-bootbox-custom-h-form" class="btn btn-default">HTML Form</button>
+                                        <button id="demo-bootbox-custom-tab" class="btn btn-default">Tabs in Modal</button>
+                                        <button id="demo-bootbox-panel-modal" class="btn btn-default">Panel in Modal</button>
+                                        <button id="demo-bootbox-accordion" class="btn btn-default">Accordion in Modal</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="row">
+                            <div class="eq-height">
+                                <div class="col-lg-6 eq-box-lg">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title"> Remove Animation </h3>
+                                        </div>
+                                        <div class="panel-body demo-jasmine-btn">
+                                          <!--Launch demo modal wihtout animation-->
+                                            <button data-target="#demo-modal-wo-anim" data-toggle="modal" class="btn btn-default btn-md">Launch demo modal</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 eq-box-lg">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Bootbox Modals</h3>
+                                        </div>
+                                        <div class="panel-body demo-jasmine-btn">
+                                            <!--Bootbox Modals-->
+                                            <button id="demo-bootbox-alert" class="btn btn-default">Alert</button>
+                                            <button id="demo-bootbox-confirm" class="btn btn-default">Confirm</button>
+                                            <button id="demo-bootbox-prompt" class="btn btn-default">Prompt</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-12">
+                               <div class="panel">
+                                  <div class="panel-heading">
+                                     <h3 class="panel-title">Bootbox with animate.css</h3>
+                                  </div>
+                                  <div class="panel-body demo-jasmine-btn">
+                                     <!--Bootbox with Animate.css-->
+                                     <button id="demo-bootbox-zoom" class="btn btn-default">Zoom in/out</button>
+                                     <button id="demo-bootbox-bounce" class="btn btn-default">Bounce</button>
+                                     <button id="demo-bootbox-ruberwobble" class="btn btn-default">RubberBand and wobble</button>
+                                     <button id="demo-bootbox-flip" class="btn btn-default">Flip</button>
+                                     <button id="demo-bootbox-lightspeed" class="btn btn-default">Light Speed</button>
+                                     <button id="demo-bootbox-swing" class="btn btn-default">Swing and Hinge</button>
+                                  </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                    <!--===================================================-->
+                    <!--End page content-->
+                </div>
+                <!--===================================================-->
+                <!--END CONTENT CONTAINER-->
+                <!--MAIN NAVIGATION-->
+                <!--===================================================-->
+                <nav id="mainnav-container">
+                    <!--Brand logo & name-->
+                    <!--================================-->
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand">
+                            <i class="fa fa-forumbee brand-icon"></i>
+                            <div class="brand-title">
+                                <span class="brand-text">WOW</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!--================================-->
+                    <!--End brand logo & name-->
+
+
+{{#contentFor "pageScripts"}}
+   <!--===================================================-->
+        <!--End Small Bootstrap Modal-->
+        <!--JAVASCRIPT-->
+        <!--=================================================-->
+        <!--jQuery [ REQUIRED ]-->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <!--BootstrapJS [ RECOMMENDED ]-->
+        <script src="js/bootstrap.min.js"></script>
+        <!--Fast Click [ OPTIONAL ]-->
+        <script src="plugins/fast-click/fastclick.min.js"></script>
+        <!--Jquery Nano Scroller js [ REQUIRED ]-->
+        <script src="plugins/nanoscrollerjs/jquery.nanoscroller.min.js"></script>
+        <!--Metismenu js [ REQUIRED ]-->
+        <script src="plugins/metismenu/metismenu.min.js"></script>
+        <!--Jasmine Admin [ RECOMMENDED ]-->
+        <script src="js/scripts.js"></script>
+        <!--Switchery [ OPTIONAL ]-->
+        <script src="plugins/switchery/switchery.min.js"></script>
+        <!--Jquery Steps [ OPTIONAL ]-->
+        <script src="plugins/parsley/parsley.min.js"></script>
+        <!--Jquery Steps [ OPTIONAL ]-->
+        <script src="plugins/jquery-steps/jquery-steps.min.js"></script>
+        <!--Bootstrap Select [ OPTIONAL ]-->
+        <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+        <!--Bootstrap Wizard [ OPTIONAL ]-->
+        <script src="plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+        <!--Masked Input [ OPTIONAL ]-->
+        <script src="plugins/masked-input/bootstrap-inputmask.min.js"></script>
+        <!--Bootstrap Validator [ OPTIONAL ]-->
+        <script src="plugins/bootstrap-validator/bootstrapValidator.min.js"></script>
+        <!--Bootbox Modals [ OPTIONAL ]-->
+        <script src="plugins/bootbox/bootbox.min.js"></script>
+        <!--Fullscreen jQuery [ OPTIONAL ]-->
+        <script src="plugins/screenfull/screenfull.js"></script>
+        <!--Form Wizard [ SAMPLE ]-->
+        <script src="js/demo/ui-modals.js"></script>
+{{/contentFor}}

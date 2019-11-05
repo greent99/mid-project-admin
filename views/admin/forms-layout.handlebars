@@ -1,0 +1,255 @@
+{{#contentFor "pageScripts"}}
+  <link href="plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
+        <!--Demo [ DEMONSTRATION ]-->
+        <link href="css/demo/jasmine.css" rel="stylesheet">
+        <!--SCRIPT-->
+        <!--=================================================-->
+        <!--Page Load Progress Bar [ OPTIONAL ]-->
+        <link href="plugins/pace/pace.min.css" rel="stylesheet">
+        <script src="plugins/pace/pace.min.js"></script>
+{{/contentFor}}
+
+
+ <div class="boxed">
+                <!--CONTENT CONTAINER-->
+                <!--===================================================-->
+                <div id="content-container">
+                    <div class="pageheader hidden-xs">
+                        <h3><i class="fa fa-home"></i> Form Layout </h3>
+                        <div class="breadcrumb-wrapper">
+                            <span class="label">You are here:</span>
+                            <ol class="breadcrumb">
+                                <li> <a href="#"> Home </a> </li>
+                                <li class="active"> form layout </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!--Page content-->
+                    <!--===================================================-->
+                    <div id="page-content">
+                      <div class="row">
+                        <div class="col-md-12">                    
+                          <div class="panel">
+                            <div class="panel-heading">
+                                <div class="panel-control">
+                                    <button class="btn btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></button>
+                                    <button class="btn btn-default" data-click="panel-reload"><i class="fa fa-refresh"></i></button>
+                                    <button class="btn btn-default" data-click="panel-collapse"><i class="fa fa-chevron-down"></i></button>
+                                    <button class="btn btn-default" data-dismiss="panel"><i class="fa fa-times"></i></button>
+                                </div>
+                                <h3 class="panel-title">Inline Form</h3>
+                            </div>
+                            <div class="panel-body">
+                                <!-- Inline Form  -->
+                                <!--===================================================-->
+                                <form class="form-inline">
+                                    <div class="form-group mar-hor">
+                                        <label for="demo-inline-inputmail" class="sr-only">Email address</label>
+                                        <input type="email" placeholder="Enter email" id="demo-inline-inputmail" class="form-control">
+                                    </div>
+                                    <div class="form-group mar-rgt">
+                                        <label for="demo-inline-inputpass" class="sr-only">Password</label>
+                                        <input type="password" placeholder="Password" id="demo-inline-inputpass" class="form-control">
+                                    </div>
+                                    <div class="checkbox">
+                                        <label class="form-checkbox form-normal form-primary">
+                                        <input type="checkbox"> Remember me</label>
+                                    </div>
+                                    <button class="btn btn-info" type="submit">Sign in</button>
+                                </form>
+                                <!--===================================================-->
+                                <!-- End Inline Form  -->
+                            </div>
+                         </div>
+                       </div>
+                     </div>
+                        <div class="row">
+                            <div class="eq-height">
+                                <div class="col-sm-6 eq-box-sm">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-control">
+                                                <button class="btn btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></button>
+                                                <button class="btn btn-default" data-click="panel-reload"><i class="fa fa-refresh"></i></button>
+                                                <button class="btn btn-default" data-click="panel-collapse"><i class="fa fa-chevron-down"></i></button>
+                                                <button class="btn btn-default" data-dismiss="panel"><i class="fa fa-times"></i></button>
+                                            </div>
+                                            <h3 class="panel-title">Block styled form</h3>
+                                        </div>
+                                        <!--Block Styled Form -->
+                                        <!--===================================================-->
+                                        <form>
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Firstname</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Lastname</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Email</label>
+                                                            <input type="email" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Website</label>
+                                                            <input type="url" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel-footer text-right">
+                                                <button class="btn btn-info" type="submit">Submit</button>
+                                            </div>
+                                        </form>
+                                        <!--===================================================-->
+                                        <!--End Block Styled Form -->
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 eq-box-sm">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-control">
+                                                <button class="btn btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></button>
+                                                <button class="btn btn-default" data-click="panel-reload"><i class="fa fa-refresh"></i></button>
+                                                <button class="btn btn-default" data-click="panel-collapse"><i class="fa fa-chevron-down"></i></button>
+                                                <button class="btn btn-default" data-dismiss="panel"><i class="fa fa-times"></i></button>
+                                            </div>
+                                            <h3 class="panel-title">Horizontal form</h3>
+                                        </div>
+                                        <!--Horizontal Form-->
+                                        <!--===================================================-->
+                                        <form class="form-horizontal">
+                                            <div class="panel-body">
+                                                <div class="form-group">
+                                                    <label class="col-sm-3 control-label" for="demo-hor-inputemail">Email</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="email" placeholder="Email" id="demo-hor-inputemail" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-3 control-label" for="demo-hor-inputpass">Password</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="password" placeholder="Password" id="demo-hor-inputpass" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-sm-offset-3 col-sm-9">
+                                                        <label class="form-checkbox form-normal form-primary">
+                                                        <input type="checkbox"> Remember me
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel-footer text-right">
+                                                <button class="btn btn-info" type="submit">Sign in</button>
+                                            </div>
+                                        </form>
+                                        <!--===================================================-->
+                                        <!--End Horizontal Form-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-control">
+                                            <button class="btn btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></button>
+                                            <button class="btn btn-default" data-click="panel-reload"><i class="fa fa-refresh"></i></button>
+                                            <button class="btn btn-default" data-click="panel-collapse"><i class="fa fa-chevron-down"></i></button>
+                                            <button class="btn btn-default" data-dismiss="panel"><i class="fa fa-times"></i></button>
+                                        </div>
+                                        <h3 class="panel-title">No label form</h3>
+                                    </div>
+                                    <!--No Label Form-->
+                                    <!--===================================================-->
+                                    <form class="form-horizontal">
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-4 mar-btm">
+                                                    <input type="text" class="form-control" placeholder="Name">
+                                                </div>
+                                                <div class="col-md-4 mar-btm">
+                                                    <input type="email" class="form-control" placeholder="Email">
+                                                </div>
+                                                <div class="col-md-4 mar-btm">
+                                                    <input type="url" class="form-control" placeholder="Website">
+                                                </div>
+                                            </div>
+                                            <textarea placeholder="Message" rows="13" class="form-control"></textarea>
+                                        </div>
+                                        <div class="panel-footer text-right">
+                                            <button class="btn btn-info">Send message</button>
+                                        </div>
+                                    </form>
+                                    <!--===================================================-->
+                                    <!--End No Label Form-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===================================================-->
+                    <!--End page content-->
+                </div>
+                <!--===================================================-->
+                <!--END CONTENT CONTAINER-->
+                <!--MAIN NAVIGATION-->
+                <!--===================================================-->
+                <nav id="mainnav-container">
+                    <!--Brand logo & name-->
+                    <!--================================-->
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand">
+                            <i class="fa fa-forumbee brand-icon"></i>
+                            <div class="brand-title">
+                                <span class="brand-text">WOW</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!--================================-->
+                    <!--End brand logo & name-->
+
+
+{{#contentFor "pageCss"}}
+  <!--===================================================-->
+        <!-- END OF CONTAINER -->
+        <!--JAVASCRIPT-->
+        <!--=================================================-->
+        <!--jQuery [ REQUIRED ]-->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <!--BootstrapJS [ RECOMMENDED ]-->
+        <script src="js/bootstrap.min.js"></script>
+        <!--Fast Click [ OPTIONAL ]-->
+        <script src="plugins/fast-click/fastclick.min.js"></script>
+        <!--Jquery Nano Scroller js [ REQUIRED ]-->
+        <script src="plugins/nanoscrollerjs/jquery.nanoscroller.min.js"></script>
+        <!--Metismenu js [ REQUIRED ]-->
+        <script src="plugins/metismenu/metismenu.min.js"></script>
+        <!--Jasmine Admin [ RECOMMENDED ]-->
+        <script src="js/scripts.js"></script>
+        <!--Jquery Nano Scroller js [ REQUIRED ]-->
+        <script src="plugins/nanoscrollerjs/jquery.nanoscroller.min.js"></script>
+        <!--Metismenu js [ REQUIRED ]-->
+        <script src="plugins/metismenu/metismenu.min.js"></script>
+        <!--Switchery [ OPTIONAL ]-->
+        <script src="plugins/switchery/switchery.min.js"></script>
+        <!--Bootstrap Select [ OPTIONAL ]-->
+        <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+        <!--Fullscreen jQuery [ OPTIONAL ]-->
+        <script src="plugins/screenfull/screenfull.js"></script>
+        <!--Demo script [ DEMONSTRATION ]-->
+        <script src="js/demo/form-layout.js"></script>
+{{/contentFor}}
